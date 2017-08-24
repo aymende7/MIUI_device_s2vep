@@ -29,7 +29,7 @@ PORT_PRODUCT = s2vep
 # All apps need to be removed from original ZIP file
 #local-remove-apps   := 
 
-#include phoneapps.mk
+include phoneapps.mk
 
 # The certificate for release version
 local-certificate-dir := security
